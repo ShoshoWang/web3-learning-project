@@ -16,7 +16,7 @@
 
 我发现很多人不知道怎么转行，也不知道怎么学习，我也是一样，但是把自己的问题提问给AI就好了，讲述自己已经做了哪些工作，想转行该学习什么，甚至我让它帮我制定了一个详细的8周学习计划
 
-![提问grok](https://raw.githubusercontent.com/ShoshoWang/web3-learning-project/refs/heads/main/assets/ai.png)
+![提问grok](./assets/ai.png)
 
 提问后会给你一个非常详细的计划，那么此后我会按照这个计划分享学习内容
 
@@ -25,7 +25,8 @@
 - 学会与区块链交互（主要是以太坊生态）。
 - 开发并部署一个简单的DApp前端。
 - 准备一个可展示的项目，为兼职工作打基础
-- 学好英语
+- 学好英语 [我的英语日更笔记](./english/daily.md)
 
 ## 📕 学习目录
--  [1开发工具准备](https://github.com/ShoshoWang/web3-learning-project/blob/main/docs/01tools.md)
+-  [1开发工具准备](./docs/01tools.md)
+
