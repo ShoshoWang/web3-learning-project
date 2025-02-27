@@ -20,7 +20,7 @@
   - 终端工具：Git Bash（Windows）、iTerm2（Mac）
   - 版本控制: Git + GitHub
   - 前端框架: React 或 Next.js, Web3 前端大多基于 React，Next.js 提供服务器端渲染和静态生成，适合 dApp
-  -  包管理工具: 自带 Node.js>=18，默认用 npm，yarn 可选
+  - 包管理工具: 自带 Node.js>=18，默认用 npm，yarn 可选
 
 2. **web3新知识**  
   - 区块链交互库： Ethers.js在前端与智能合约交互，查询链上数据，发送交易
