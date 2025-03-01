@@ -1,11 +1,11 @@
 ## 📝 每日英语学习记录
 
 ### December/12/2024
-* Web3 is an <span style="color: red; font-weight: bold;">umbrella term</span>for technologies like blockchain **that** decentralize data ownership and control on the internet   （umbrella term总称）
+* Web3 is an **umbrella term**for technologies like blockchain **that** decentralize data ownership and control on the internet   （umbrella term总称）
 * **Semantic web** （语义化网络）
 * intermediary
 * **cryptocurrency technologies** （加密货币技术）
-* With the <span style="color: red; font-weight: bold;">emergence of </span>Web 2.0 technologies like blogs and social media platforms （出现）
+* With the**emergence of**Web 2.0 technologies like blogs and social media platforms （出现）
 * **paradigm** （范例）
 * Blockchain technology **forms** the foundation of many Web 3.0 applications
 * **chronologically** （按时间顺序）
@@ -56,5 +56,6 @@
 * before **embarking** on formal development
 * **ramp up** （斜坡上升）
 
-### February/26/2025  
-* 
+### March/01/2025  
+* Vercel is a developer cloud platform **designed to** build and deploy web applications (学习这种句子讲解自己的项目)
+* Automated Infrastructure （自动化基础设置）
