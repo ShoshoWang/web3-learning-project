@@ -12,7 +12,7 @@
 * **ledger** （账本）
 
 ### February/19/2025
-* RetroBridge offers users a <span style="color: red; font-weight: bold;">comprehensive solution </span>for transferring assets （全面解决方案）
+* RetroBridge offers users a **comprehensive solution** for transferring assets （全面解决方案）
 * transferring asset  (资产转移）
 * unified interface （统一接口）
 * What sets RetroBridge apart is its exceptional support for Bitcoin （apart:  形容词与众不同的）
@@ -59,3 +59,4 @@
 ### March/01/2025  
 * Vercel is a developer cloud platform **designed to** build and deploy web applications (学习这种句子讲解自己的项目)
 * Automated Infrastructure （自动化基础设置）
+* The #BUIDL meme was **taking off** in the Ethereum ecosystem  （流行起来）
