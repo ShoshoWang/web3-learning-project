@@ -62,7 +62,10 @@ if (typeof window.ethereum !== 'undefined'){
 }
 ```
 
-👆以上简要概述，完成代码可学习完04Next.js和Vercel部署后查看demo仓库和线上页面
+👆以上简要概述
+- [完整代码查看](https://github.com/ShoshoWang/my-app-demo/blob/main/src/app/page.tsx)
+- [线上地址访问体验](https://my-app-demo-git-main-shoshowangs-projects.vercel.app/)
+建议学习完04Next.js和Vercel部署后更加理解
 
 
 ### 3.Web3钱包与Chrome插件API的关联
