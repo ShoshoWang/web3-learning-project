@@ -140,6 +140,19 @@ async function connectWallet() {
   }
 }
 ```
+
+### 更新2025年3月学习更新
+以上的方法是我在刚开始学习的时候，学到的一些相对比较老的方法，但是的确是底层的方法，最近几周通过学习web3方向react hooks生态下wagmi,发现很多方法都已经封装现成了，开箱即用，所以后续继续学习来更新这里的方法
+
+```javascript
+import {
+  useConnect,
+  useAccount,
+  useDisconnect,
+  useEnsAvatar,
+  useEnsName,
+} from "wagmi";
+```
 ### 总结
 
 希望通过本篇笔记的介绍能够有所收获
