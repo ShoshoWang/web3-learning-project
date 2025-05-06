@@ -1,0 +1,13 @@
+{
+  "compilerOptions": {
+    "lib": ["ESNext", "DOM"],
+    "target": "ES6",
+    "types": ["reflect-metadata"],
+    "noImplicitAny": true,
+    "strict": true,
+    "noImplicitThis": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "strictNullChecks": true
+  }
+}

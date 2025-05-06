@@ -1,0 +1,27 @@
+{
+  "name": "yd-ts-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn --transpile-only ./src/demo.ts",
+    "build": "tsc ./src/demo.ts",
+    "client:dev": "webpack --mode development"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.13.15",
+    "@babel/preset-env": "^7.13.15",
+    "@babel/preset-typescript": "^7.13.0",
+    "@swc/core": "^1.2.51",
+    "babel-loader": "^8.2.2",
+    "reflect-metadata": "^0.1.13",
+    "swc-loader": "^0.1.12",
+    "ts-node-dev": "^1.1.6",
+    "typescript": "^4.2.4",
+    "webpack": "^5.31.2",
+    "webpack-cli": "^4.6.0"
+  }
+}
