@@ -45,3 +45,22 @@ USDT（Tether）是一种稳定币，锚定美元价值（1 USDT ≈ 1 USD）。
 4. 部署一个发红包合约 构造函数的存取方式 换成一个独立的函数
 function deposit() public payable {}
 5. 用AI生成的代码务必你要理解 （要对你本次生成的代码录制视频逐行讲解）
+
+#### **作业实现逻辑记录**
+
+1. 第一步设计抢红的合约流程图
+![流程图](../assets/red.png)
+
+2. 第二部使用Truffle Suite写合约部署合约
+```bash
+npm install -g truffle
+```
+
+3. 前端开发UI界面
+```bash
+npm install connectkit wagmi viem@2.x @tanstack/react-query
+```
+
+4. 前端与红包合约交互
+
+5. 功能展示
