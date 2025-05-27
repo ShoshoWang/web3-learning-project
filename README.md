@@ -48,5 +48,5 @@
 - [💰有用的信息](./notebook/info.md)
 - [🔧web3前端架构方案](./notebook/lesson2.md)
 - [📖区块链技术](./notebook/lesson3.md)
-- [📖只能合约](./notebook/lesson4.md)
+- [📖智能合约](./notebook/lesson4.md)
 

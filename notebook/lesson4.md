@@ -10,11 +10,17 @@
 current smart-contract powered applications include
 -  Uniswap (去中心化交易所)
 -  Compound (借贷平台)
--  USDC / USDT(稳定币)
+-  USDC/USDT(稳定币)
+-  CryptoKitties/OpenSea (NFT)
+-  MakerDAO (去中心化自治组织)
+-  供应链和溯源管理
 
 🌰：比如我持有一些Ethereum，我想把它换成稳定币，此时我可以去Uniswap，该平台会通过智能合约自动为我找到最佳汇率，进行交易，并提供兑换后我需要的usdt,之后我可以把我的稳定币投入到Compound平台，借给他人去获得利率利润
 
 👆：以上所有的过程都没有任何中间商或者银行参与，都是去中心化的，并且都是安全的，因为这些都是基于区块链的智能合约实现的
+
+#### **困惑为什么USDT也有智能合约？**
+USDT（Tether）是一种稳定币，锚定美元价值（1 USDT ≈ 1 USD）。你可能困惑为什么一个“数字货币”也需要智能合约代码。原因在于，USDT并不是像比特币那样的原生区块链资产，而是基于某些区块链（如以太坊、Tron）的代币，依赖智能合约来运行
 
 #### **知识点**
 - 智能合约可以用多种编程语言编写（包括 Solidity、Web Assembly 和 Michelson）。在以太坊网络上，每个智能合约的代码都存储在区块链上，任何感兴趣的一方都可以检查合约的代码和当前状态，以验证其功能
@@ -23,10 +29,11 @@ current smart-contract powered applications include
 - 要在以太坊网络上执行智能合约，您通常需要支付称为“gas”的费用（之所以这样命名，是因为这些费用可以维持区块链的运行）
 - 一旦部署到区块链上，智能合约通常就无法被修改，即使是其创建者也无法修改。（此规则也有例外。）这有助于确保智能合约不会被审查或关闭
 
-#### **智能合约技术**
+#### **智能合约学习**
 
 1. https://cryptozombies.io/en/course/ cryptozombies课程趣味好玩学习Solidity写合约
 2. https://archive.trufflesuite.com/docs/truffle/quickstart/ 使用Truffle Suite写合约部署合约，套件中ganache是本地测试网络，可以模拟区块链，在本地测试合约
+3. https://remix.ethereum.org/ 在线合约编辑器，支持在线部署合约
 
 #### **钱包与合约交互**
 之前已经学习过前端的js逻辑链接钱包，今天学习使用钱包和合约逻辑交互
