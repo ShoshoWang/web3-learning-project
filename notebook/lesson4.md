@@ -55,12 +55,30 @@ function deposit() public payable {}
 ```bash
 npm install -g truffle
 ```
+使用truffle开箱即用创建合约项目，再把本地的ganache测试网络配置到truffle-config.js中
 
 3. 前端开发UI界面
 ```bash
 npm install connectkit wagmi viem@2.x @tanstack/react-query
 ```
+安装了connectkit钱包连接插件，wagmi是一个轻量级的React查询库，viem是一个轻量级的Ethereum库，@tanstack/react-query是一个轻量级的React查询库
 
+使用改库后，我们可以在前端发红包页面，包一个Web3Provider基础设施组件，它让你能够在应用中方便地使用ConnectKit提供的钱包连接UI和Wagmi提供的区块链交互功能
+```js
+const Web3Provider = ({ children }: React.PropsWithChildren) => (
+  <WagmiProvider config={config}>
+    <QueryClientProvider client={queryClient}>
+      <ConnectKitProvider>{children}</ConnectKitProvider>
+    </QueryClientProvider>
+  </WagmiProvider>
+);
+```
 4. 前端与红包合约交互
-
+前端组件中我们需要使用wagami的useContractWrite和useContractRead来与合约交互，useContractWrite是用来写合约的，useContractRead是用来读合约的
+```js
+// 读合约，写合约 把合约信息配置在contracts文件中
+import { useReadContract, useWriteContract } from 'wagmi'
+import { wagmiContractConfig } from './contracts'
+```
 5. 功能展示
+
