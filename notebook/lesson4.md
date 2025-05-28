@@ -34,6 +34,8 @@ USDT（Tether）是一种稳定币，锚定美元价值（1 USDT ≈ 1 USD）。
 1. https://cryptozombies.io/en/course/ cryptozombies课程趣味好玩学习Solidity写合约
 2. https://archive.trufflesuite.com/docs/truffle/quickstart/ 使用Truffle Suite写合约部署合约，套件中ganache是本地测试网络，可以模拟区块链，在本地测试合约
 3. https://remix.ethereum.org/ 在线合约编辑器，支持在线部署合约
+4. https://docs.family.co/connectkit/getting-started#getting-started connectkit钱包连接插件
+5. https://wagmi.sh/react/guides/read-from-contract  React hook 与合约交互
 
 #### **钱包与合约交互**
 之前已经学习过前端的js逻辑链接钱包，今天学习使用钱包和合约逻辑交互
